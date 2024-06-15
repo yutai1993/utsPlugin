@@ -40,18 +40,6 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-    //使用uniapp时，需复制下面代码
-    /*代码开始*/
-    aaptOptions {
-        additionalParameters '--auto-add-overlay'
-        //noCompress 'foo', 'bar'
-        ignoreAssetsPattern "!.svn:!.git:.*:!CVS:!thumbs.db:!picasa.ini:!*.scc:*~"
-    }
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_17
-        targetCompatibility JavaVersion.VERSION_17
-    }
-    /*代码结束*/
 }
 
 dependencies {
