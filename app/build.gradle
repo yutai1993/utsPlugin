@@ -12,13 +12,6 @@ android {
         versionCode 1
         versionName "1.0"
         multiDexEnabled true
-        ndk {
-            abiFilters 'x86','armeabi-v7a'
-        }
-        compileOptions {
-            sourceCompatibility JavaVersion.VERSION_17
-            targetCompatibility JavaVersion.VERSION_17
-        }
     }
 
     signingConfigs {
@@ -39,6 +32,10 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
     }
 }
 
