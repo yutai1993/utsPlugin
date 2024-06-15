@@ -9,7 +9,7 @@ task generateSourcesJar(type: Jar){
 }
 android {
     namespace 'com.example.plugin_uts'
-    compileSdk 33
+    compileSdk 34
 
     defaultConfig {
         minSdk 21
@@ -27,8 +27,8 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_11
-        targetCompatibility JavaVersion.VERSION_11
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
     }
 }
 afterEvaluate {
@@ -36,7 +36,7 @@ afterEvaluate {
         publications {
             // Creates a Maven publication called "release".
             group = 'com.github.pluginUts'
-            version = '1.0.12'
+            version = '1.0.13'
             //发布release版本
             release(MavenPublication) {
                 // Applies the component for the release build variant.

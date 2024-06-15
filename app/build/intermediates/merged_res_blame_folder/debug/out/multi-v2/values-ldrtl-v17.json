@@ -1,16 +1,33 @@
 {
     "logs": [
         {
-            "outputFile": "com.android.UniPlugin.app-mergeDebugResources-13:/values-ldrtl-v17/values-ldrtl-v17.xml",
+            "outputFile": "com.android.UniPlugin.app-mergeDebugResources-34:/values-ldrtl-v17/values-ldrtl-v17.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\16335\\.gradle\\caches\\transforms-3\\dcb31eb1701e13ec9be1df1b3b2e0f19\\transformed\\jetified-uniapp-v8-release\\res\\values-ldrtl-v17\\values-ldrtl-v17.xml",
+                    "source": "C:\\Users\\mi\\.gradle\\caches\\transforms-3\\dcb31eb1701e13ec9be1df1b3b2e0f19\\transformed\\jetified-uniapp-v8-release\\res\\values-ldrtl-v17\\values-ldrtl-v17.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "55",
                         "endColumns": "50",
                         "endOffsets": "101"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\mi\\.gradle\\caches\\transforms-3\\3904fcbf54877c32e793f7c977944ca9\\transformed\\material-1.12.0\\res\\values-ldrtl-v17\\values-ldrtl-v17.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,191",
+                        "endColumns": "135,140",
+                        "endOffsets": "186,327"
+                    },
+                    "to": {
+                        "startLines": "3,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "106,242",
+                        "endColumns": "135,140",
+                        "endOffsets": "237,378"
                     }
                 }
             ]

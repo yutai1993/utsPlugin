@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.android.UniPlugin.app-mergeDebugResources-13:/values-ldltr-v17/values-ldltr-v17.xml",
+            "outputFile": "com.android.UniPlugin.app-mergeDebugResources-34:/values-ldltr-v17/values-ldltr-v17.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\16335\\.gradle\\caches\\transforms-3\\dcb31eb1701e13ec9be1df1b3b2e0f19\\transformed\\jetified-uniapp-v8-release\\res\\values-ldltr-v17\\values-ldltr-v17.xml",
+                    "source": "C:\\Users\\mi\\.gradle\\caches\\transforms-3\\dcb31eb1701e13ec9be1df1b3b2e0f19\\transformed\\jetified-uniapp-v8-release\\res\\values-ldltr-v17\\values-ldltr-v17.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
